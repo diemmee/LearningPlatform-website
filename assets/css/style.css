@@ -143,12 +143,20 @@ a {
     color: #fff;
 }
 
+.hero__action__btn:hover {
+    opacity: 0.9;
+}
+
 .hero__content {
     position: relative;
 }
 
 .action__play {
     margin-top: 50px;
+}
+
+.action__play:hover {
+    opacity: 0.9;
 }
 
 .content__img {
