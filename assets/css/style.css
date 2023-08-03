@@ -421,3 +421,34 @@ a {
     left: -15px;
     border-radius: 33px;
 }
+
+/* ==== countdown ==== */
+.countdown {
+    padding: 389px 0 264px;
+}
+
+.countdown .main-content {
+    width: 862px;
+}
+
+.countdown__info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.block__number {
+    text-align: center;
+    color: #0d1111;
+    font-size: 6.2rem;
+    font-weight: 700;
+}
+
+.block__desc {
+    margin-top: 11px;
+    text-align: center;
+    color: #767e7e;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+/* ==== feedback ==== */
