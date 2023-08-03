@@ -16,28 +16,28 @@
         <title>HTMLCSS Project 03</title>
     </head>
     <body>
-        <header class="header header__fixed">
+        <header id="home" class="header header__fixed">
             <div class="main-content">
                 <section class="header__body">
-                    <a href="#!">
+                    <a href="#home">
                         <img src="./assets/img/logo.svg" alt="Besnik." />
                     </a>
                     <nav class="navbar">
                         <ul class="navbar__list">
                             <li class="active">
-                                <a class="list__item" href="#!">Home</a>
+                                <a class="list__item" href="#home">Home</a>
                             </li>
                             <li>
-                                <a class="list__item" href="#!">Features</a>
+                                <a class="list__item" href="#features">Features</a>
                             </li>
                             <li>
-                                <a class="list__item" href="#!">Pricing</a>
+                                <a class="list__item" href="#pricing">Pricing</a>
                             </li>
                             <li>
-                                <a class="list__item" href="#!">About</a>
+                                <a class="list__item" href="#about">About</a>
                             </li>
                             <li>
-                                <a class="list__item" href="#!">Contact</a>
+                                <a class="list__item" href="#contact">Contact</a>
                             </li>
                         </ul>
                         <div class="navbar__action">
@@ -49,338 +49,340 @@
             </div>
         </header>
 
-        <!-- hero -->
-        <section class="hero">
-            <div class="main-content">
-                <div class="hero__body">
-                    <section class="hero__info">
-                        <p class="info__subtile">😎 EASY LEAENING PLATFORM</p>
-                        <h1 class="info_heading">Words learner come here.</h1>
-                        <p class="desc">
-                            Build skills with courses, certificates, and get
-                            online knowledge from our <br />world-class
-                            platform.
+        <main>
+            <!-- hero -->
+            <section class="hero">
+                <div class="main-content">
+                    <div class="hero__body">
+                        <section class="hero__info">
+                            <p class="info__subtile">😎 EASY LEAENING PLATFORM</p>
+                            <h1 class="info_heading">Words learner come here.</h1>
+                            <p class="desc">
+                                Build skills with courses, certificates, and get
+                                online knowledge from our <br />world-class
+                                platform.
+                            </p>
+                            <div class="hero__action">
+                                <a href="#!" class="btn hero__action__btn"
+                                    >Get Started</a
+                                >
+                                <img
+                                    src="./assets/img/play-button.svg"
+                                    alt=""
+                                    class="action__play"
+                                />
+                            </div>
+                        </section>
+    
+                        <section class="hero__content">
+                            <img
+                                src="./assets/img/hero-img.jpg"
+                                alt=""
+                                class="content__img"
+                            />
+                            <div class="content__card__1">
+                                <img
+                                    class="card__1__img"
+                                    src="./assets/img/card-courses.svg"
+                                    alt=""
+                                />
+                            </div>
+    
+                            <div class="content__card__2">
+                                <img
+                                    class="card__2__img"
+                                    src="./assets/img/card-schedules.svg"
+                                    alt=""
+                                />
+                            </div>
+    
+                            <div class="content__card__3">
+                                <p class="card__3__title">Our Active Students</p>
+                                <div class="block-avt">
+                                    <img
+                                        class="card__3__avt"
+                                        src="./assets/img/card-1.jpg"
+                                        alt=""
+                                    />
+                                    <img
+                                        class="card__3__avt"
+                                        src="./assets/img/card-2.jpg"
+                                        alt=""
+                                    />
+                                    <img
+                                        class="card__3__avt"
+                                        src="./assets/img/card-3.jpg"
+                                        alt=""
+                                    />
+                                    <img
+                                        class="card__3__avt"
+                                        src="./assets/img/card-4.jpg"
+                                        alt=""
+                                    />
+                                    <span class="avt-plus">10K+</span>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </section>
+    
+            <!-- features -->
+            <section  id="features" class="features">
+                <div class="main-content">
+                    <div class="features__text">
+                        <p class="text__sub-title">F E A T U R E S</p>
+                        <h2 class="line-clamp text__heading">
+                            We are providing suitable features for students.
+                        </h2>
+                        <p class="line-clamp text__desc">
+                            Read our awesome feature that is absolutely suit for
+                            you. Explore the feature and know the best.
                         </p>
-                        <div class="hero__action">
-                            <a href="#!" class="btn hero__action__btn"
-                                >Get Started</a
+                    </div>
+    
+                    <div class="features__section">
+                        <div style="width: 168px" class="section__block">
+                            <img src="./assets/img/live-class.svg" alt="" />
+                            <p class="block__sub-title">Live Class</p>
+                            <p
+                                style="--line-clamp: 3"
+                                class="line-clamp countdown__block__desc"
                             >
-                            <img
-                                src="./assets/img/play-button.svg"
-                                alt=""
-                                class="action__play"
-                            />
+                                We are providing live classes with the best teacher
+                                for you
+                            </p>
                         </div>
-                    </section>
-
-                    <section class="hero__content">
-                        <img
-                            src="./assets/img/hero-img.jpg"
-                            alt=""
-                            class="content__img"
-                        />
-                        <div class="content__card__1">
-                            <img
-                                class="card__1__img"
-                                src="./assets/img/card-courses.svg"
-                                alt=""
-                            />
+    
+                        <div style="width: 223px" class="section__block">
+                            <img src="./assets/img/discuss.svg" alt="" />
+                            <p class="block__sub-title">Live Class</p>
+                            <p
+                                style="--line-clamp: 3"
+                                class="line-clamp countdown__block__desc"
+                            >
+                                Conversation with teachers or another students about
+                                task or any other thing
+                            </p>
                         </div>
-
-                        <div class="content__card__2">
-                            <img
-                                class="card__2__img"
-                                src="./assets/img/card-schedules.svg"
-                                alt=""
-                            />
+    
+                        <div style="width: 224px" class="section__block">
+                            <img src="./assets/img/task.svg" alt="" />
+                            <p class="block__sub-title">Live Class</p>
+                            <p
+                                style="--line-clamp: 3"
+                                class="line-clamp countdown__block__desc"
+                            >
+                                We give every of our students task for gathering knowledge at home
+                            </p>
                         </div>
-
-                        <div class="content__card__3">
-                            <p class="card__3__title">Our Active Students</p>
-                            <div class="block-avt">
-                                <img
-                                    class="card__3__avt"
-                                    src="./assets/img/card-1.jpg"
-                                    alt=""
-                                />
-                                <img
-                                    class="card__3__avt"
-                                    src="./assets/img/card-2.jpg"
-                                    alt=""
-                                />
-                                <img
-                                    class="card__3__avt"
-                                    src="./assets/img/card-3.jpg"
-                                    alt=""
-                                />
-                                <img
-                                    class="card__3__avt"
-                                    src="./assets/img/card-4.jpg"
-                                    alt=""
-                                />
-                                <span class="avt-plus">10K+</span>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-            </div>
-        </section>
-
-        <!-- features -->
-        <section class="features">
-            <div class="main-content">
-                <div class="features__text">
-                    <p class="text__sub-title">F E A T U R E S</p>
-                    <h2 class="line-clamp text__heading">
-                        We are providing suitable features for students.
-                    </h2>
-                    <p class="line-clamp text__desc">
-                        Read our awesome feature that is absolutely suit for
-                        you. Explore the feature and know the best.
-                    </p>
-                </div>
-
-                <div class="features__section">
-                    <div style="width: 168px" class="section__block">
-                        <img src="./assets/img/live-class.svg" alt="" />
-                        <p class="block__sub-title">Live Class</p>
-                        <p
-                            style="--line-clamp: 3"
-                            class="line-clamp countdown__block__desc"
-                        >
-                            We are providing live classes with the best teacher
-                            for you
-                        </p>
-                    </div>
-
-                    <div style="width: 223px" class="section__block">
-                        <img src="./assets/img/discuss.svg" alt="" />
-                        <p class="block__sub-title">Live Class</p>
-                        <p
-                            style="--line-clamp: 3"
-                            class="line-clamp countdown__block__desc"
-                        >
-                            Conversation with teachers or another students about
-                            task or any other thing
-                        </p>
-                    </div>
-
-                    <div style="width: 224px" class="section__block">
-                        <img src="./assets/img/task.svg" alt="" />
-                        <p class="block__sub-title">Live Class</p>
-                        <p
-                            style="--line-clamp: 3"
-                            class="line-clamp countdown__block__desc"
-                        >
-                            We give every of our students task for gathering knowledge at home
-                        </p>
                     </div>
                 </div>
-            </div>
-        </section>
-
-        <!-- courses -->
-        <section class="courses">
-            <div class="main-content">
-                <div class="courses__info">
-                    <p class="courses__info__sub-title">C O U R S E S</p>
-                    <h2 class="courses__info__title">Popular Courses</h2>
-                    <div class="desc__wrap">
-                        <p class="line-clamp courses__info__desc">
-                            Check out our most poular courses that suit for you.
-                            Here you can find your favourite one.
-                        </p>
-                        <a class="desc__cta" href="#!">View All Courses</a>
+            </section>
+    
+            <!-- courses -->
+            <section id="pricing" class="courses">
+                <div class="main-content">
+                    <div class="courses__info">
+                        <p class="courses__info__sub-title">C O U R S E S</p>
+                        <h2 class="courses__info__title">Popular Courses</h2>
+                        <div class="desc__wrap">
+                            <p class="line-clamp courses__info__desc">
+                                Check out our most poular courses that suit for you.
+                                Here you can find your favourite one.
+                            </p>
+                            <a class="desc__cta" href="#!">View All Courses</a>
+                        </div>
                     </div>
-                </div>
-
-                <div class="courses__card">
-                    <div class="card__course">
-                        <a href="#!">
-                            <img
-                                src="./assets/img/courses-card-1.jpg"
-                                alt=""
-                                class="course__image"
-                            />
-                        </a>
-                        <div class="course__info">
-                            <div class="wrap">
-                                <p>
-                                    <a href="#!" class="info__name"
-                                        >Web Design</a
+    
+                    <div class="courses__card">
+                        <div class="card__course">
+                            <a href="#!">
+                                <img
+                                    src="./assets/img/courses-card-1.jpg"
+                                    alt=""
+                                    class="course__image"
+                                />
+                            </a>
+                            <div class="course__info">
+                                <div class="wrap">
+                                    <p>
+                                        <a href="#!" class="info__name"
+                                            >Web Design</a
+                                        >
+                                    </p>
+                                    <p class="info__price">
+                                        Fee
+                                        <strong class="info__price--strong"
+                                            >$200</strong
+                                        >
+                                    </p>
+                                    <p
+                                        style="--line-clamp: 1"
+                                        class="line-clamp info__desc"
                                     >
-                                </p>
-                                <p class="info__price">
-                                    Fee
-                                    <strong class="info__price--strong"
-                                        >$200</strong
-                                    >
-                                </p>
-                                <p
-                                    style="--line-clamp: 1"
-                                    class="line-clamp info__desc"
-                                >
-                                    Web design basic to higher level
-                                </p>
-                                <div class="info__time">
-                                    <p class="time__classes">40 Classes</p>
-                                    <p class="time__month">3 Months</p>
+                                        Web design basic to higher level
+                                    </p>
+                                    <div class="info__time">
+                                        <p class="time__classes">40 Classes</p>
+                                        <p class="time__month">3 Months</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="card__course">
-                        <a href="#!">
-                            <img
-                                src="./assets/img/courses-card-2.jpg"
-                                alt=""
-                                class="course__image"
-                            />
-                        </a>
-                        <div class="course__info">
-                            <div class="wrap">
-                                <p>
-                                    <a class="info__name" href="#!"
-                                        >Web Development</a
+    
+                        <div class="card__course">
+                            <a href="#!">
+                                <img
+                                    src="./assets/img/courses-card-2.jpg"
+                                    alt=""
+                                    class="course__image"
+                                />
+                            </a>
+                            <div class="course__info">
+                                <div class="wrap">
+                                    <p>
+                                        <a class="info__name" href="#!"
+                                            >Web Development</a
+                                        >
+                                    </p>
+                                    <p class="info__price">
+                                        Fee
+                                        <strong class="info__price--strong"
+                                            >$250</strong
+                                        >
+                                    </p>
+                                    <p
+                                        style="--line-clamp: 1"
+                                        class="line-clamp info__desc"
                                     >
-                                </p>
-                                <p class="info__price">
-                                    Fee
-                                    <strong class="info__price--strong"
-                                        >$250</strong
-                                    >
-                                </p>
-                                <p
-                                    style="--line-clamp: 1"
-                                    class="line-clamp info__desc"
-                                >
-                                    Web development basic to higher level
-                                </p>
-                                <div class="info__time">
-                                    <p class="time__classes">30 Classes</p>
-                                    <p class="time__month">3 Months</p>
+                                        Web development basic to higher level
+                                    </p>
+                                    <div class="info__time">
+                                        <p class="time__classes">30 Classes</p>
+                                        <p class="time__month">3 Months</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="card__course">
-                        <a href="#!">
-                            <img
-                                src="./assets/img/courses-card-3.jpg"
-                                alt=""
-                                class="course__image"
-                            />
-                        </a>
-                        <div class="course__info">
-                            <div class="wrap">
-                                <p>
-                                    <a href="#!" class="info__name"
-                                        >UI/UX Design</a
+    
+                        <div class="card__course">
+                            <a href="#!">
+                                <img
+                                    src="./assets/img/courses-card-3.jpg"
+                                    alt=""
+                                    class="course__image"
+                                />
+                            </a>
+                            <div class="course__info">
+                                <div class="wrap">
+                                    <p>
+                                        <a href="#!" class="info__name"
+                                            >UI/UX Design</a
+                                        >
+                                    </p>
+                                    <p class="info__price">
+                                        Fee
+                                        <strong class="info__price--strong"
+                                            >$350</strong
+                                        >
+                                    </p>
+                                    <p
+                                        style="--line-clamp: 1"
+                                        class="line-clamp info__desc"
                                     >
-                                </p>
-                                <p class="info__price">
-                                    Fee
-                                    <strong class="info__price--strong"
-                                        >$350</strong
-                                    >
-                                </p>
-                                <p
-                                    style="--line-clamp: 1"
-                                    class="line-clamp info__desc"
-                                >
-                                    UI/UX design basic to higher level
-                                </p>
-                                <div class="info__time">
-                                    <p class="time__classes">50 Classes</p>
-                                    <p class="time__month">4 Months</p>
+                                        UI/UX design basic to higher level
+                                    </p>
+                                    <div class="info__time">
+                                        <p class="time__classes">50 Classes</p>
+                                        <p class="time__month">4 Months</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-
-        <!-- Countdown -->
-        <section class="countdown">
-            <div class="main-content">
-                <div class="countdown__info">
-                    <div class="info__block">
-                        <p class="block__number">100+</p>
-                        <p class="countdown__block__desc">Popular Courses</p>
-                    </div>
-
-                    <div class="info__block">
-                        <p class="block__number">500+</p>
-                        <p class="countdown__block__desc">Skilled Trainer</p>
-                    </div>
-
-                    <div class="info__block">
-                        <p class="block__number">1M+</p>
-                        <p class="countdown__block__desc">Student Learning</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- feedback -->
-        <section class="feedback">
-            <div class="main-content">
-                <div class="feedback__body">
-                    <div class="body__text">
-                        <img src="./assets/img/quote.svg" alt="" />
-                        <blockquote style="--line-clamp: 4;" class="line-clamp">
-                            “They are the best people. And this is the suitable
-                            platform to learn from distance.”
-                        </blockquote>
-                        <p style="--line-clamp: 1;"  class="line-clamp text__author "><strong class="text__author--strong">Ben Foakes</strong>, student.</p>
-                        <img
-                            src="./assets/img/chervon.svg"
-                            alt=""
-                            class="chervon"
-                        />
-                    </div>
-
-                    <div class="body__avt">
-                        <div class="body__avt__wrap">
-                            <img src="./assets/img/fb-red-panda.jpg" alt="" class="avt--main">
-                            </img>
+            </section>
+    
+            <!-- Countdown -->
+            <section id="about" class="countdown">
+                <div class="main-content">
+                    <div class="countdown__info">
+                        <div class="info__block">
+                            <p class="block__number">100+</p>
+                            <p class="countdown__block__desc">Popular Courses</p>
                         </div>
-                        <div class="avts--small">
-                            <img src="./assets/img/fb-bull.jpg" alt="" class="avt--small-1">
-                            <img src="./assets/img/fb-huou.jpg" alt="" class="avt--small-2">
-                            <img src="./assets/img/fb-ostriches.jpg" alt="" class="avt--small-3">
-                            <img src="./assets/img/fb-meerkat.jpg" alt="" class="avt--small-4">
-                            <img src="./assets/img/fb-voi.jpg" alt="" class="avt--small-5">
+    
+                        <div class="info__block">
+                            <p class="block__number">500+</p>
+                            <p class="countdown__block__desc">Skilled Trainer</p>
                         </div>
-
+    
+                        <div class="info__block">
+                            <p class="block__number">1M+</p>
+                            <p class="countdown__block__desc">Student Learning</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
-
-        <!-- cta -->
-        <section class="cta">
-            <div class="main-content">
-                <div class="cta__body">
-                    <div class="body__text">
-                        <h2 class="title">Ready to Get Admit</h2>
-                        <p class="line-clamp cta__desc">Create your account and Boost your Career</p>
-                    </div>
-                    <div class="body__btn">
-                        <a href="#!" class="btn cta__btn">Get Started</a>
+            </section>
+    
+            <!-- feedback -->
+            <section  class="feedback">
+                <div class="main-content">
+                    <div class="feedback__body">
+                        <div class="body__text">
+                            <img src="./assets/img/quote.svg" alt="" />
+                            <blockquote style="--line-clamp: 4;" class="line-clamp">
+                                “They are the best people. And this is the suitable
+                                platform to learn from distance.”
+                            </blockquote>
+                            <p  class="text__author "><strong class="text__author--strong">Ben Foakes</strong>, student.</p>
+                            <img
+                                src="./assets/img/chervon.svg"
+                                alt=""
+                                class="chevron"
+                            />
+                        </div>
+    
+                        <div class="body__avt">
+                            <div class="body__avt__wrap">
+                                <img src="./assets/img/fb-red-panda.jpg" alt="" class="avt--main">
+                                </img>
+                            </div>
+                            <div class="avts--small">
+                                <img src="./assets/img/fb-bull.jpg" alt="" class="avt--small-1">
+                                <img src="./assets/img/fb-huou.jpg" alt="" class="avt--small-2">
+                                <img src="./assets/img/fb-ostriches.jpg" alt="" class="avt--small-3">
+                                <img src="./assets/img/fb-meerkat.jpg" alt="" class="avt--small-4">
+                                <img src="./assets/img/fb-voi.jpg" alt="" class="avt--small-5">
+                            </div>
+    
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
+    
+            <!-- cta -->
+            <section class="cta">
+                <div class="main-content">
+                    <div class="cta__body">
+                        <div class="body__text">
+                            <h2 class="title">Ready to Get Admit</h2>
+                            <p class="line-clamp cta__desc">Create your account and Boost your Career</p>
+                        </div>
+                        <div class="body__btn">
+                            <a href="#!" class="btn cta__btn">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
 
         <!-- footer -->
-        <footer class="footer">
+        <footer id="contact" class="footer">
             <div class="main-content">
                 <div class="footer__body">
-                    <a href="#!">
+                    <a href="#home">
                         <img src="./assets/img/logo.svg" alt="Besnik.">
                     </a>
 
@@ -460,7 +462,7 @@
                     </div>
                 </div>
 
-                <div class="coppy-right">
+                <div class="copy-right">
                     <p>© Copyright 2020 by Mayad Ahmed. All right reserved.</p>
                 </div>
             </div>

@@ -55,10 +55,11 @@ a {
     padding: 52px 0 8px;
 }
 
-/* .header__fixed {
+.header__fixed {
     position: sticky;
     top: -44px;
-} */
+    z-index: 1;
+}
 
 .navbar {
     display: flex;
@@ -494,7 +495,7 @@ a {
     font-weight: 500;
 }
 
-.chervon:hover {
+.chevron:hover {
     opacity: 0.9;
 }
 
@@ -647,7 +648,7 @@ a {
     margin-left: 9px;
 }
 
-.coppy-right {
+.copy-right {
     color: #b0b5b4;
     font-size: 1.8rem;
     font-weight: 400;
