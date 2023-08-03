@@ -278,7 +278,7 @@ a {
     padding: 26px 0 16px;
 }
 
-.block__desc {
+.countdown__block__desc {
     color: #9da6a5;
     font-size: 1.6rem;
     font-weight: 400;
@@ -602,4 +602,55 @@ a {
 
 .cta__btn:hover {
     opacity: 0.9;
+}
+
+/* ==== footer ==== */
+.footer {
+    padding: 130px 0 50px;
+}
+
+.footer__body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-items {
+    width: 157px;
+}
+
+.name-item {
+    color: #2e2e2e;
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+}
+
+.item {
+    display: inline-block;
+    color: #535353;
+    font-size: 1.6rem;
+    font-weight: 400;
+    padding: 10px 0;
+    word-break: break-all;
+}
+
+.item:hover {
+    text-decoration: underline;
+}
+
+.social-item {
+    margin-left: 9px;
+}
+
+.coppy-right {
+    color: #b0b5b4;
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 80px;
 }
